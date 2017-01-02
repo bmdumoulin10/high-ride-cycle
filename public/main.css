@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+
+.navigationBar{
+  height: 225px;
+  background-color: black;
+}
+
+.navList{
+  font-family: 'Graduate';
+  font-size: 18px;
+  color: #d9d9d9;
+}
+
+nav div ul{
+  padding-top: 150px;
+}
+
+#homeBack{
+  background-image: url("images/genBackground1366.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
