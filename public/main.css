@@ -45,4 +45,18 @@ li a:hover {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
+  text-align: center;
+}
+
+/*reserve a bike button styles*/
+.reserveButton{
+  margin-top: 20%;
+  color: #972563;
+  background-color: black;
+  opacity: .8;
+  border-color: black;
+  height: 60px;
+  font-size: 32px;
+  border-radius: 10px;
+  font-family: 'Graduate';
 }
