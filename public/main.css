@@ -7,21 +7,31 @@ body{
   background-color: black;
 }
 
+/*this is the ul*/
 .navList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: inline-block;
+}
+
+li{
+  float: left;
+}
+
+/*this is li a*/
+.navFont{
   font-family: 'Graduate';
   font-size: 18px;
+  display: block;
   color: #d9d9d9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav div ul{
-  padding-top: 150px;
-}
-
-#homeBack{
-  background-image: url("images/genBackground1366.jpg");
-  width: 100vw;
-  height: 100vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
+li a:hover {
+    color: #972563;
 }
