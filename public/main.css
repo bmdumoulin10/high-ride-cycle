@@ -1,18 +1,21 @@
+/*General styles*/
 .genFont{
-  font-family: serif;
+  font-family: 'Graduate';
 }
 
 .paraFont{
   font-size: 18px;
   padding: 0 15px 15px 15px;
   text-align: justify;
+  font-family: serif;
 }
 
 .construction{
   text-align: center;
-  font-family: serif;
+  font-family: 'Graduate';
 }
-/*setting the navbar */
+
+/*setting the navbar styles*/
 body{
   margin: 0;
 }
@@ -50,6 +53,10 @@ li{
 
 li a:hover {
     color: #972563;
+}
+
+.teamNav{
+  line-height: 25px;
 }
 
 /*setting the background of the homepage below the navbar*/
@@ -99,6 +106,21 @@ li a:hover {
 }
 
 /*team high ride page styles*/
-h1{
+.teamRow{
   text-align: center;
 }
+
+.teamPics{
+  display: inline-block;
+}
+
+/*h1 for team ride high page*/
+.teamHeader{
+  text-align: center;
+  font-family: 'Graduate';
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 6%;
+}
+
+/*Contact page styles*/
