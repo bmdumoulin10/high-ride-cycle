@@ -124,3 +124,50 @@ li a:hover {
 }
 
 /*Contact page styles*/
+.contact{
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.questions{
+  background-color: #666666;
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contactInfo{
+  display: inline-block;
+  margin-top: 25px;
+}
+
+form{
+  text-align: left;
+  font-family: serif;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.textArea{
+  width: 98%;
+  height: 150px;
+}
+
+.questionsButton{
+  height: 35px;
+  width: 75px;
+  background-color: #0556a5;
+  border-color: #0556a5;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Graduate';
+}
+
+.info{
+  text-align: left;
+  font-family: serif;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+}
