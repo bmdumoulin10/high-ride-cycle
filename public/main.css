@@ -97,6 +97,10 @@ li a:hover {
   padding-top: 150px;
 }
 
+.aboutHeading{
+  padding-top: 15px;
+}
+
 .aboutTextBox{
   background-color: #ebeced;
   border-radius: 10px;
@@ -170,4 +174,28 @@ form{
   padding: 15px;
   color: white;
   font-size: 18px;
+}
+
+/*FAQ page style*/
+.faqWindow{
+  background-color: #666666;
+  width: 800px;
+  display: inline-block;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+.faqContainer{
+  background-color: #666666;
+  width: 200px;
+  padding: 15px;
+}
+
+.faqFont{
+  font-family: serif;
+  color: white;
+}
+
+.faqTitle{
+  margin-bottom: 0;
 }
