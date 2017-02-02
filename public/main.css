@@ -7,7 +7,7 @@
   font-size: 18px;
   padding: 0 15px 15px 15px;
   text-align: justify;
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .construction{
@@ -121,6 +121,7 @@ li a:hover {
 
 .teamPics{
   display: inline-block;
+  margin: 10px;
 }
 
 /*h1 for team ride high page*/
@@ -136,6 +137,7 @@ li a:hover {
 .contact{
   text-align: center;
   background-color: #EAEAEA;
+  vertical-align: top;
 }
 
 .questions{
@@ -143,6 +145,7 @@ li a:hover {
   width: 350px;
   border-radius: 10px;
   margin: 10px;
+  vertical-align: top;
 }
 
 .contactInfo{
@@ -152,7 +155,7 @@ li a:hover {
 
 form{
   text-align: left;
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 15px;
   font-size: 18px;
 }
@@ -164,17 +167,24 @@ form{
 
 .questionsButton{
   height: 35px;
-  width: 75px;
-  background-color: #0556a5;
-  border-color: #0556a5;
+  width: 125px;
+  background-color: black;
+  border-color: black;
+  opacity: .6;
   border-radius: 5px;
   font-family: 'Graduate';
-  color: white;
+  color: #972563;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.questionsButton:hover{
+  color: #0556a5;
 }
 
 .info{
   text-align: left;
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 15px;
   font-size: 18px;
 }
@@ -197,9 +207,25 @@ form{
 }
 
 .faqFont{
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .faqTitle{
   margin-bottom: 0;
+}
+
+.mapPic{
+  text-align: center;
+  background-color: #EAEAEA;
+}
+
+.socialMedia{
+  text-align: center;
+}
+
+.facebook{
+  margin: 7px 7px 7px 0px;
+}
+.insta{
+  margin: 7px;
 }
