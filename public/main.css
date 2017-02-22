@@ -67,6 +67,7 @@ li a:hover {
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
+  margin-top: 61px;
 }
 
 /*reserve a bike button styles*/
@@ -95,6 +96,7 @@ li a:hover {
   position: relative;
   text-align: center;
   padding-top: 150px;
+  margin-top: 61px;
 }
 
 .aboutHeading{
@@ -136,7 +138,6 @@ li a:hover {
 /*Contact page styles*/
 .contact{
   text-align: center;
-  background-color: #EAEAEA;
   vertical-align: top;
 }
 
@@ -150,7 +151,7 @@ li a:hover {
 
 .contactInfo{
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 86px;
 }
 
 form{
@@ -194,9 +195,13 @@ form{
   background-color: #666666;
   width: 800px;
   display: inline-block;
-  margin-top: 25px;
+  margin-top: 86px;
   margin-bottom: 25px;
   border-radius: 20px;
+}
+
+.faqRow{
+  text-align: center;
 }
 
 .faqContainer{
@@ -212,6 +217,10 @@ form{
 
 .faqTitle{
   margin-bottom: 0;
+}
+
+.faqHeader{
+  font-weight: bold;
 }
 
 .mapPic{
