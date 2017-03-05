@@ -370,6 +370,12 @@ form{
     vertical-align: top;
   }
 
+  .mapPic{
+    margin: 0 auto;
+    content:url("images/googleMapVertTab.png");
+    width: 570px;
+  }
+
 }
 
 /*----------------------------------------------------------*/
