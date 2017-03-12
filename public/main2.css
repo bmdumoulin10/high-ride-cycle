@@ -178,7 +178,6 @@ form{
   font-family: 'Graduate';
 }
 
-
 /*--------------------------------------------------------------*/
 /*Horizontal tablet, laptops, & desktops*/
 @media only screen and (min-width: 993px){
@@ -299,7 +298,6 @@ form{
 /*------------------------------------------------------------*/
 /*Horizontal phone*/
 @media only screen and (min-width: 601px) and (max-width: 750px){
-  /*************************HOMEPAGE**************/
 
   /*setting the background of the homepage below the navbar*/
   #homeBackground {
