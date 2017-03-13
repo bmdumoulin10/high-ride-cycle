@@ -178,6 +178,10 @@ form{
   font-family: 'Graduate';
 }
 
+.headHeight{
+  height: 130px;
+}
+
 /*--------------------------------------------------------------*/
 /*Horizontal tablet, laptops, & desktops*/
 @media only screen and (min-width: 993px){
@@ -398,7 +402,7 @@ form{
     opacity: .8;
     border-color: black;
     height: 60px;
-    font-size: 32px;
+    font-size: 26px;
     border-radius: 10px;
     font-family: 'Graduate';
   }
